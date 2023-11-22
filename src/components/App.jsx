@@ -1,16 +1,24 @@
-export const App = () => {
+
+
+import { Heading } from "../components/Heading/Heading";
+
+export const App = props => {
+
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+     
+      <Heading>
+        React Lesson 2
+      </Heading>
+
+      <div>
+    
+      </div>
     </div>
   );
 };
+
+
+
+
+

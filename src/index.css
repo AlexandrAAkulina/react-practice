@@ -13,3 +13,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.red {
+  display: inline-block;
+  background-color: red;
+  /* width: 15px; */
+  /* height: 15px; */
+  /* border-radius: 50%; */
+}
+.yellow {
+  display: inline-block;
+  background-color: yellow;
+  /* width: 15px;
+  height: 15px;
+  border-radius: 50%; */
+}
+.blue {
+  display: inline-block;
+  background-color: blue;
+  /* width: 15px;
+  height: 15px;
+  border-radius: 50%; */
+}
+
+.sale {
+  display: inline-block;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+}
